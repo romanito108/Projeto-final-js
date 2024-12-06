@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTR Game</title>
+    <link rel="stylesheet" href="project/style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <img src="foto/ima1.jpeg" alt="Imagem de fundo" class="background-image" />
+        <div class="overlay">
+          <div id="primeiraInteracaoo"><p>Qual o seu nome  </p> </div>
+           <div id="segundaInteracao" style="display: none;"><p> Olá, <span id="nomeSaudado"></span>. Qual raça você escolherá? Humano, Elfo ou Anão</p></div>
+           <div id="terceiraInteracao" style="display: none;"> <p> Você terá 6 pontos para distribuir. Quantos pontos para força?</p></div>
+           <div id="quartaInteracao" style="display: none;"> <p>Você ainda tem ${atributos} pontos. Quantos para agilidade?</p></div>
+           <div id="quintaInteracao"style="display: none;"><p>Você tem ${atributos} pontos restantes. Quantos para inteligência?</p></div>
+          
+           <div id="sextaInteracao"style="display: none;"><p> </p></div>
+          
+           <div id="resumoInteracao"style="display: none;"><p></p></div>
+            <div id="setimaInteracao"style="display: none;"> </div>
+            <div id="iniciodaAventura" style="display: none;"></div>
+              <div id="primeiraLuta" style="display: none;"></div>
+              <div id="primeirafasedeluta"></div>
+              <div id="segundaLuta" style="display: none;"></div>
+        </div>
+        <div class="containerinner">
+       
+        <div class="overlay2">
+          <!-- Formulário de interação -->
+          <form id="formInteracao">
+              <textarea name="mensagem" id="textarea-custom" id="mensagem"></textarea>
+              <button type="button" onclick="processarResposta()">Enviar</button>
+          </form>
+      </div>
+  </div>
+
+      </div>
+    </div>
+      <div class="container-nav">
+        <div class="logo">Dúvidas?</div>
+    
+            <ul class="nav-links">
+                <li><a href="pagina2.html">Clique aqui?</a></li>
+               
+            </ul>
+        
+    </div>
+
+
+
+   <script src="project/main.js"></script>
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
+</body>
+</html>
+ 
